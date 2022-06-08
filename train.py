@@ -10,7 +10,7 @@ from keras.utils import multi_gpu_model
 
 np.random.seed(87)
 os.environ['TF_ENABLE_AUTO_MIXED_PRECISION'] = '1'
-base_dir = '/home/f901107/Unet-ants/'
+base_dir = '/home/Unet-ants/'
 os.chdir(base_dir+'code/')
 
 # local imports
