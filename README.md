@@ -8,6 +8,9 @@ This is a self-contained repository for training classification-based, highly-cu
 ![image](https://user-images.githubusercontent.com/6081278/172671643-482cbd27-58aa-429a-9915-b1b705e0c875.png)
 Proposed 3D U-Net with dilated convolution network for 3D MRI masseter segmentation. Each blue box corresponds to a multi-channel feature map. The white boxes represent the copied feature map. The arrows indicate different operations. The numbers beside the blue boxes indicate the filter size, and the numbers next to D indicate the dilation rate.
 
+
+## Results
+
 ![image](https://user-images.githubusercontent.com/6081278/172672292-c8d2b73c-c980-489b-b2bf-82fa4edce5ee.png)
 (a)
 ![image](https://user-images.githubusercontent.com/6081278/172672305-cecc2da2-cdcb-485e-80c5-7958edd09bba.png)
@@ -25,11 +28,9 @@ Proposed 3D U-Net with dilated convolution network for 3D MRI masseter segmentat
 ![image](https://user-images.githubusercontent.com/6081278/172672972-c8ea8cb3-8f43-4e0d-a74b-ba1535545dec.png)
 (h)
 
-Example segmentation results: (a - c) Best segmentation of left masseter; (e - g) Best segmentation of right masseter; (d, h) 3D reconstruction. Red: reference; Blue: prediction; Purple: overlay of proposed segmentation versus ground truth.
+Fig Example segmentation results: (a - c) Best segmentation of left masseter; (e - g) Best segmentation of right masseter; (d, h) 3D reconstruction. Red: reference; Blue: prediction; Purple: overlay of proposed segmentation versus ground truth.
 
-
-## Results
 
 ![image](https://user-images.githubusercontent.com/6081278/172673460-ef7ea567-2279-46f1-9c13-348301d6ce8a.png)
   
-DSC, sensitivity, specificity, precision, and root mean square distance (RMSD). The evaluations were performed over manual labels by an expert in dentistry. The agreement between comparisons is proportional to Dice, sensitivity, specificity, and precision and inversely proportional to HD and RMSD. Values are presented as mean ± SD. SD, standard deviation.
+Table  DSC, sensitivity, specificity, precision, and root mean square distance (RMSD). The evaluations were performed over manual labels by an expert in dentistry. The agreement between comparisons is proportional to Dice, sensitivity, specificity, and precision and inversely proportional to HD and RMSD. Values are presented as mean ± SD. SD, standard deviation.
