@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 from keras import callbacks as cbks
 
-base_dir = '/users/ncullen/desktop/projects/unet-ants/'
+base_dir = '/'
 os.chdir(base_dir+'code/')
 
 # local imports
