@@ -28,9 +28,9 @@ Proposed 3D U-Net with dilated convolution network for 3D MRI masseter segmentat
 ![image](https://user-images.githubusercontent.com/6081278/172672972-c8ea8cb3-8f43-4e0d-a74b-ba1535545dec.png)
 (h)
 
-Fig Example segmentation results: (a - c) Best segmentation of left masseter; (e - g) Best segmentation of right masseter; (d, h) 3D reconstruction. Red: reference; Blue: prediction; Purple: overlay of proposed segmentation versus ground truth.
+Fig. Example segmentation results: (a - c) Best segmentation of left masseter; (e - g) Best segmentation of right masseter; (d, h) 3D reconstruction. Red: reference; Blue: prediction; Purple: overlay of proposed segmentation versus ground truth.
 
 
 ![image](https://user-images.githubusercontent.com/6081278/172673460-ef7ea567-2279-46f1-9c13-348301d6ce8a.png)
   
-Table  DSC, sensitivity, specificity, precision, and root mean square distance (RMSD). The evaluations were performed over manual labels by an expert in dentistry. The agreement between comparisons is proportional to Dice, sensitivity, specificity, and precision and inversely proportional to HD and RMSD. Values are presented as mean ± SD. SD, standard deviation.
+Table.  DSC, sensitivity, specificity, precision, and root mean square distance (RMSD). The evaluations were performed over manual labels by an expert in dentistry. The agreement between comparisons is proportional to Dice, sensitivity, specificity, and precision and inversely proportional to HD and RMSD. Values are presented as mean ± SD. SD, standard deviation.
