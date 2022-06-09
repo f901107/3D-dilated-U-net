@@ -69,29 +69,6 @@ def bce_dice_loss(y_true, y_pred): #94.25% / 90.66%
 def bce_dice_with_l2_loss(y_true, y_pred): #94.35% / 90.71%  #94.57% / 90.68%
     l2_loss = mean_squared_error(y_true, y_pred)
     return binary_crossentropy(y_true, y_pred) + dice_loss(y_true, y_pred) + 0.01 * l2_loss # 0.1 * l2_loss / 1e-5
-# D+l2
-# D+0.1*l2: 93.09% / 92.59%
-# D+0.01*l2: 93.68% / 92.94% v
-# D+0.001*l2: 93.41% / 92.08% 
-
-# binary_crossentropy
-# 0.1: 93.86% / 92.88%
-# 0.01: 93.60% / 92.61% 
-# 0.001: 93.54% / 92.89% v
-# 0.0001 93.40% / 92.77%
-# 0.00001 93.83% / 92.66%
-
-# dice_loss
-# 0.1: 93.10% / 92.70%
-# 0.01: 93.35% / 92.64%
-# 0.001: 92.01% / 91.88%
-
-# l2_loss
-# 0.1: 93.19% / 92.32%
-# 0.01: 93.61% / 92.83% v
-# 0.001: 93.80% / 92.58% 
-# 0.0001: 93.67 / 92.48%
-# 0.00001: 93.30 / 92.54%
 
 def h_dice_with_l2_loss(y_true, y_pred): # 94.04% / 91.34%
     l2_loss = mean_squared_error(y_true, y_pred)
