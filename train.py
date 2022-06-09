@@ -39,7 +39,7 @@ input_tx = tx.MinMaxScaler((0,1)) # scale between -1 and 1
 
 target_tx = tx.BinaryMask(cutoff=0.5) # convert segmentation image to One-Hot representation for cross-entropy loss
 
-dataset = CSVDataset(filepath=data_dir+'image_l_01.csv', 
+dataset = CSVDataset(filepath=data_dir+'image.csv', 
                     base_path=os.path.join(data_dir,'images'), # this path will be appended to all of the filenames in the csv file
                     input_cols=['Images'], # column in dataframe corresponding to inputs (can be an integer also)
                     target_cols=['Segmentations'],# column in dataframe corresponding to targets (can be an integer also)
